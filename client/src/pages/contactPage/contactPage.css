@@ -1,0 +1,109 @@
+
+.wrapper{
+  margin: 0 auto;
+}
+.cc {
+  max-width: 360px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  text-align: center;
+}
+.name, .text{
+  width: 300px;
+  height: 35px;
+  padding: 0 7px;
+  margin: 5px 0 5px 0;
+  border: 1px solid green;
+  border-radius: 10px;
+  background: rgba(240, 230, 140, 0.1);
+  color: rgb(64, 58, 58);
+  transition: 0.3s;
+}
+.name:hover, .text:hover{
+  background: rgba(240, 230, 140, 0.5);
+}
+.hr{
+  height: 1px;
+  width: 324px;
+  background-color: white;
+  position: relative;
+  left: -11px
+}
+.btn{
+  width: 130px;
+  height: 34px;
+  letter-spacing: 0.1em;
+  transition: 0.5s;
+  position: relative;
+  border: 1px solid #A4DADA;
+  background: #A4DADA;
+  color: blue;
+}
+.btn:hover{
+  letter-spacing: 0.2em;
+}
+.glow-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+  cursor: pointer;
+}
+.glow-button:hover {
+  box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+  border: none;
+  color: #F137A6;
+}
+.form{
+  margin: 50px;
+  display: block;
+}
+.form input {
+  height: 50px;
+  border: 1px solid #8a2435;
+  border-radius: 50px;
+}
+.mr{
+  position: absolute;
+  top: -50%;
+  right: -60px;
+  width: 200px;
+  color: black;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  transition: 1s;
+  animation: opacit 1s;
+  text-align: center;
+}
+@keyframes opacit {
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
